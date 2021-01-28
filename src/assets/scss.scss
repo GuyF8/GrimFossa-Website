@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+//colors
+$primary: #509199;
+$navbar-item-color: hsl(255, 255, 255);
+
+//fonts
+$family-sans-serif: 'Space Grotesk', sans-serif;
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+//spacing
+$spacing-values: ("0": 0rem, "1": .5rem, "2": 1rem, "3": 1.5rem, "4": 2rem, "5": 4rem, "6": 6rem);
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
