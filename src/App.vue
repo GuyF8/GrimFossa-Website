@@ -19,6 +19,6 @@ export default {
 
 
 <style lang="scss">
-  @import '~@/assets/scss/scss.scss';
+  @import '~@/assets/variables.scss';
 </style>
 
